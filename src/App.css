@@ -1,14 +1,37 @@
 .App {
   display: flex;
   flex-direction: row;
+  background-image: url("./images/bg5.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-
+.bg-image {
+  height: 100%;
+  width: 100%;
+}
 #left-half {
   width: 50vw;
   height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+#sun1 {
+  left: 85vw !important;
+  top: 2vw !important;
+}
+
+#note1 {
+  left: 60vw !important;
+  top: 10vw !important;
+}
+
+#note2 {
+  left: 60vw !important;
+  top: 70vh !important;
+  z-index: 4;
+  height: 5vh;
 }
 
 #left-half > div:nth-child(2) {
@@ -23,49 +46,6 @@
   justify-content: center;
   word-wrap: break-word;
   flex-direction: column;
-}
-#links-container {
-  display: flex;
-}
-
-table {
-}
-
-tr {
-  min-height: 100vw;
-}
-#mytitle {
-  font-size: 2vw;
-  font-weight: lighter;
-  color: #a7dbd8;
-}
-
-td > div {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  max-height: 10vw;
-  max-width: 10vw;
-  margin: 1vw;
-}
-
-td > div:hover {
-  box-shadow: 0 0 20px #f38630;
-  -webkit-filter: blur(1px); /* Safari 6.0 - 9.0 */
-  cursor: pointer;
-  filter: none;
-}
-
-a img {
-  max-height: 3vw;
-  max-width: 3vw;
-  filter: drop-shadow();
-}
-
-#name {
-  font-size: 5vw;
-  font-weight: bold;
-  color: #69d2e7;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -96,4 +76,13 @@ a img {
   to {
     transform: rotate(360deg);
   }
+}
+
+#para {
+  position: absolute;
+}
+
+#para > div > img {
+  height: 10vw;
+  width: 10vw;
 }
