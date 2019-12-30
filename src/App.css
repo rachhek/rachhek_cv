@@ -22,14 +22,35 @@
   top: 2vw !important;
 }
 
-#note1 {
+#note1_1 {
   left: 60vw !important;
   top: 10vw !important;
 }
 
-#note2 {
-  left: 60vw !important;
+#note1_2 {
+  left: 50vw !important;
   top: 70vh !important;
+  z-index: 4;
+  height: 5vh;
+}
+
+#note2_1 {
+  left: 5vw !important;
+  top: 70vh !important;
+  z-index: 4;
+  height: 5vh;
+}
+
+#note3_1 {
+  left: 10vw !important;
+  top: 8vh !important;
+  z-index: 4;
+  height: 5vh;
+}
+
+#note3_2 {
+  left: 15vw !important;
+  top: 5vh !important;
   z-index: 4;
   height: 5vh;
 }
