@@ -1,9 +1,9 @@
 <svg width="250" height="250" xmlns="http://www.w3.org/2000/svg">
  <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
- <g>
-  <ellipse ry="120" rx="120" id="svg_4" cy="125.518393" cx="124.640588" fill-opacity="null" stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="#fff"/>
-  <ellipse ry="3.636364" rx="3.636364" id="svg_6" cy="5.543962" cx="125.090108" stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="#000000"/>
-  <ellipse ry="3.636364" rx="3.636364" id="svg_7" cy="175.240134" cx="233.542789" stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="#000000"/>
-  <ellipse ry="3.636364" rx="3.636364" id="svg_8" cy="175.240134" cx="15.452203" stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="#000000"/>
- </g>
+  <g >
+   <ellipse fill="none" stroke="#f38630" stroke-width="1.5" cx="124.640588" cy="125.518393" id="svg_4" rx="120" ry="120"/>
+   <ellipse fill="#f38630" stroke="#000" stroke-width="0" cx="125.090108" cy="5.543962" id="svg_6" rx="3.636364" ry="3.636364"/>
+   <ellipse fill="#f38630" stroke="#000000" stroke-width="0" cx="233.542789" cy="175.240134" id="svg_7" rx="3.636364" ry="3.636364"/>
+   <ellipse fill="#f38630" stroke="#000000" stroke-width="0" cx="15.452203" cy="175.240134" id="svg_8" rx="3.636364" ry="3.636364"/>
+  </g>
 </svg>
