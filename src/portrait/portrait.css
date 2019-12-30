@@ -1,0 +1,127 @@
+#portrait-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40vmin;
+  height: 40vmin;
+  border-radius: 50%;
+  box-sizing: border-box;
+}
+
+#orbit1 {
+  position: absolute;
+  animation: orbit1-rotate 60s infinite linear;
+  width: 30vmin;
+  height: 30vmin;
+}
+
+#orbit2 {
+  position: absolute;
+  animation: orbit2-rotate 60s infinite linear;
+  width: 35vmin;
+  height: 35vmin;
+}
+
+#portrait {
+  transition: box-shadow 0.2s;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+  background: #fff;
+  height: 25vmin;
+  width: 25vmin;
+  margin: 0 auto;
+  z-index: 4;
+}
+
+#portrait:hover {
+  box-shadow: 0 0 20px rgba(33, 33, 33, 0.5);
+  -webkit-filter: blur(1px); /* Safari 6.0 - 9.0 */
+  filter: blur(1px);
+  cursor: pointer;
+}
+
+.orbit1 {
+  animation: orbit1-rotate 45s infinite linear;
+}
+
+.orbit1 div {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: gray;
+  z-index: 3;
+  margin: -204px 0 0 0;
+}
+
+.orbit1 div:nth-child(1) {
+  margin: -204px 0 0 0;
+}
+
+.orbit1 div:nth-child(2) {
+  margin: 87px 0 0 -182px;
+}
+
+.orbit1 div:nth-child(3) {
+  margin: 87px 0 0 170px;
+}
+
+.orbit2 {
+  animation: orbit2-rotate 120s infinite linear;
+}
+
+.orbit2 div {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: gainsboro;
+}
+
+.orbit2 div:nth-child(1) {
+  margin: 209px 0 0 0;
+}
+
+.orbit2 div:nth-child(2) {
+  margin: -222px 0 0 0;
+}
+
+@keyframes orbit1-rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes orbit2-rotate {
+  0% {
+    transform: rotate(360deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.fade-in {
+  -webkit-animation: fade-in 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+  animation: fade-in 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+}
+
+@-webkit-keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
