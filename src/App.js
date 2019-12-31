@@ -22,7 +22,6 @@ function App() {
         <Links />
       </div>
       <div id="para">
-        <img data-depth="0.4" src={note1} id="note1_1" />
         <img data-depth="1" src={note1} id="note1_2" />
         <img data-depth="1" src={note2} id="note2_1" />
         <img data-depth="1" src={note3} id="note3_1" />
